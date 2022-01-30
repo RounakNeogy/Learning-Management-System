@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.App{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  /* justify-content: center; */
+  align-items: center;
+  background: rgb(202, 96, 96);
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Navbar */
+.navbar{
+  background-color: rgb(139, 41, 41);
+  width: 100vw;
+}
+
+.navbar-brand{
+  color:rgb(207, 12, 12);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.nav-link{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+/* Home */
+.home{
+  width: 100vh;
+  padding: 4rem; 
+  color: white;
+}
+.title-home{
+  font-size: 6rem;
+  font-weight: 1000;
+}
+/* Learn */
+.card{
+  background-color: rgb(139, 41, 41);
+}
+
+
+/* Contact */
+.contact{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-title{
+  color: white;
+}
+
+/* Sign up */
+.signup-div{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup{
+  width: 400px;
+  background: rgb(139, 41, 41);
+  border: 1px solid rgb(139, 41, 41);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+input{
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 92%;
+  font-size: 1rem;
+}
+
+.form-title{
+  color:white;
+  font-weight: 1000;
+  font-size: 2.5rem;
+}
+
+#signup-button{
+  background: rgb(16, 76, 206);
+  border: 1px solid white;
+  color: rgb(228, 235, 238);
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.signin-link{
+  color: white;
+}
+
+/* Sign in */
+
+.signin-div{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin{
+  width: 400px;
+  background: rgb(139, 41, 41);;
+  border: 1px solid rgb(139, 41, 41);;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+#signin-button{
+  background: rgb(16, 76, 206);
+  border: 1px solid white;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.signin-link{
+  color: white;
+}
